@@ -8,14 +8,14 @@ interface Todo{
   completed: boolean,
   date: string
 }
-interface TodoItem{
+interface TodoItemProps{
   removeTodo: (id: number) => void;
   changeStatus: (id: number) => void;
   todo: Todo
 }
 
 
-function TodoItem( {todo, removeTodo, changeStatus}: TodoItem ) {
+function TodoItem( {todo, removeTodo, changeStatus}: TodoItemProps ) {
   return (
     <div className='flex justify-between p-3 bg-slate-700 text-white rounded-xl items-center cursor-pointer' onClick={() => changeStatus(todo.id)}>
       {!todo.completed ? 
