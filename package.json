@@ -1,6 +1,6 @@
 {
   "homepage": "https://1lemur.github.io/React-ts-tailwind-practice/",
-  "name": "try-react",
+  "name": "react-todo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
