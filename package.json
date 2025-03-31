@@ -1,5 +1,5 @@
 {
-  "homepage": "https://1lemur.github.io/React-ts-tailwind-practice/",
+  "homepage": "https://1lemur.github.io/React-ts-tailwind-todo-app/",
   "name": "react-todo",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^13.2.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
-    "gh-pages": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
