@@ -19,8 +19,8 @@ function TodoItem( {todo, removeTodo, changeStatus}: TodoItemProps ) {
   return (
     <div className='flex justify-between p-3 bg-slate-700 text-white rounded-xl items-center cursor-pointer' onClick={() => changeStatus(todo.id)}>
       {!todo.completed ? 
-        <RxCross2 size={window.innerWidth >= 640 ? 48 : 32} className='border-2 p-1 border-white rounded-xl mr-3' /> : 
-        <RxCheck size={window.innerWidth >= 640 ? 48 : 32} className='border-2 p-1  border-white rounded-xl mr-3' />
+        <RxCross2 size={window.innerWidth >= 640 ? 48 : 40} className='border-2 p-1 border-white rounded-xl mr-3' /> : 
+        <RxCheck size={window.innerWidth >= 640 ? 48 : 40} className='border-2 p-1  border-white rounded-xl mr-3' />
       }
       <div className="flex flex-col gap- w-full">
         <h3 className={clsx({
@@ -35,7 +35,7 @@ function TodoItem( {todo, removeTodo, changeStatus}: TodoItemProps ) {
       <RxTrash 
         className='bg-slate-300 text-black p-1 rounded-xl hover:bg-slate-100 ease-in duration-200 cursor-pointer' 
         onClick={() => removeTodo(todo.id)}
-        size={window.innerWidth >= 640 ? 48 : 32}
+        size={window.innerWidth >= 640 ? 48 : 40}
       />
     </div>
   )
