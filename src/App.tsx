@@ -32,12 +32,12 @@ function App() {
   )
 
   return (
-    <div className="flex flex-col items-center p-4 h-screen bg-slate-100">
+    <div className="flex flex-col items-center sm:p-4 p-0 h-screen bg-slate-100 ">
       <header className="text-6xl font-extrabold text-slate-700 mb-3">Todo List</header>
       <main className="w-10/12 flex flex-col gap-3">
         <MainButtons addTodo={addTodo} todo={todo} />
         {todo.length !== 0 ? 
-          <div className="flex flex-col gap-5 text-2xl p-3 bg-slate-300 rounded-xl">
+          <div className="flex flex-col gap-5 sm:text-2xl text-xl p-3 bg-slate-300 rounded-xl">
             {todo.map(todo => 
               <TodoItem todo = {todo} key={todo.id} removeTodo={removeTodo} changeStatus={changeStatus}/>)}
           </div>
