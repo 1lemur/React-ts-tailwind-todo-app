@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-ts-tailwind-todo-app/static/css/main.3723db5c.css",
-    "main.js": "/React-ts-tailwind-todo-app/static/js/main.747a694f.js",
+    "main.css": "/React-ts-tailwind-todo-app/static/css/main.04b218e6.css",
+    "main.js": "/React-ts-tailwind-todo-app/static/js/main.30230415.js",
     "index.html": "/React-ts-tailwind-todo-app/index.html",
-    "main.3723db5c.css.map": "/React-ts-tailwind-todo-app/static/css/main.3723db5c.css.map",
-    "main.747a694f.js.map": "/React-ts-tailwind-todo-app/static/js/main.747a694f.js.map"
+    "main.04b218e6.css.map": "/React-ts-tailwind-todo-app/static/css/main.04b218e6.css.map",
+    "main.30230415.js.map": "/React-ts-tailwind-todo-app/static/js/main.30230415.js.map"
   },
   "entrypoints": [
-    "static/css/main.3723db5c.css",
-    "static/js/main.747a694f.js"
+    "static/css/main.04b218e6.css",
+    "static/js/main.30230415.js"
   ]
 }
